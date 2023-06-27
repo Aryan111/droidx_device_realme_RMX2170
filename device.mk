@@ -154,6 +154,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/svi_config_206B1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/svi_config_206B1.xml
 
+TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey
