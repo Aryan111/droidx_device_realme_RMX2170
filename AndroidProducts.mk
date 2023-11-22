@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2170.mk
+    $(LOCAL_DIR)/droidx_RMX2170.mk
     
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX2170-user \
-    lineage_RMX2170-userdebug \
-    lineage_RMX2170-eng    
+    droidx_RMX2170-user \
+    droidx_RMX2170-userdebug \
+    droidx_RMX2170-eng    
