@@ -33,6 +33,9 @@ debug.cpurend.vsync=false
 pm.sleep_mode=1
 vendor.post_boot.parsed=1
 
+# DroidX-UI Maintainer
+ro.droidx.maintainer=Balay Bera
+
 # Radio Powersaving
 persist.radio.add_power_save=1
 ro.ril.disable.power.collapse=0
